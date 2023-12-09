@@ -15,7 +15,7 @@ python3 manage.py collectstatic --noinput
 # python3 manage.py makemigrations和migrate了, 现在使用远程MySQL数据库, 首先需要更
 # 改settings.py中的DATABASE, 然后需要运行下面的命令, 将makemigrations生成的迁移文件
 # 应用到MySQL数据库中.
-python3 manage.py migrate
+# python3 manage.py migrate
 
 
 # Live Coding模式下, 检测到文件修改后会自动重启, 重新运行该shell文件, 此时该shell文件
